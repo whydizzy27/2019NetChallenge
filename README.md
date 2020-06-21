@@ -17,9 +17,9 @@
 
 
 ### # 사용 언어 및 라이브러리
-C, Python
-LORA 모듈 통신 라이브러리 dragino_lora_app
-NEO PIXEL LED 라이브러리 AdafruitNeoPixelmaster
+C, Python <br>
+LORA 모듈 통신 라이브러리 dragino_lora_app<br>
+NEO PIXEL LED 라이브러리 AdafruitNeoPixelmaster<br>
 GPS Data 수신 라이브러리 http://www.danmandle.com/blog/getting-gpsd-to-work-with-python/
 
 ### # HardWare
@@ -28,16 +28,16 @@ GPS Data 수신 라이브러리 http://www.danmandle.com/blog/getting-gpsd-to-wo
 
 
 ### # Software
-자율주행차량 패킷 수신 코드
+자율주행차량 패킷 수신 코드<br>
 경로 : Car1 > rpi-lora-tranceiver-master > dragino_lora_app > main.c
 
-GPS data 수신 코드
+GPS data 수신 코드<br>
 경로 : Car1 > gpsData.py
 
-신호등 서버 패킷 송신 코드
+신호등 서버 패킷 송신 코드<br>
 경로 : Server1 > rpi-lora-tranceiver-master > dragino_lora_app > main.c
 
-신호등 신호 패턴 코드
+신호등 신호 패턴 코드<br>
 경로 : Digital_Traffic_Light_Signal_Pattern > LED_Pattern.ino
 
 ### # 개발 결과
