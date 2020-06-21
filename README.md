@@ -17,31 +17,31 @@
 
 
 ### # 사용 언어 및 라이브러리
-C, Python <br>
-LORA 모듈 통신 라이브러리 dragino_lora_app<br>
-NEO PIXEL LED 라이브러리 AdafruitNeoPixelmaster<br>
-GPS Data 수신 라이브러리 http://www.danmandle.com/blog/getting-gpsd-to-work-with-python/
+- C, Python <br>
+- LORA 모듈 통신 라이브러리 dragino_lora_app<br>
+- NEO PIXEL LED 라이브러리 AdafruitNeoPixelmaster<br>
+- GPS Data 수신 라이브러리 http://www.danmandle.com/blog/getting-gpsd-to-work-with-python/
 
 ### # 개발 환경
-OS : Rasibian<br>
-Tool : Arduino
+- OS : Rasibian<br>
+- Tool : Arduino
 
 ### # HardWare
-디지털 신호등 (송수신 타워)<br>
-차량 탑재용 라즈베리파이4 (Lora 탑재)
+- 디지털 신호등 (송수신 타워)<br>
+- 차량 탑재용 라즈베리파이4 (Lora 탑재)
 
 
 ### # Software
-자율주행차량 패킷 수신 코드<br>
+- 자율주행차량 패킷 수신 코드<br>
 경로 : Car1 > rpi-lora-tranceiver-master > dragino_lora_app > main.c
 
-GPS data 수신 코드<br>
+- GPS data 수신 코드<br>
 경로 : Car1 > gpsData.py
 
-신호등 서버 패킷 송신 코드<br>
+- 신호등 서버 패킷 송신 코드<br>
 경로 : Server1 > rpi-lora-tranceiver-master > dragino_lora_app > main.c
 
-신호등 신호 패턴 코드<br>
+- 신호등 신호 패턴 코드<br>
 경로 : Digital_Traffic_Light_Signal_Pattern > LED_Pattern.ino
 
 ### # 개발 결과
