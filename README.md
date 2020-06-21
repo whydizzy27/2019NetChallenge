@@ -22,6 +22,10 @@ LORA 모듈 통신 라이브러리 dragino_lora_app<br>
 NEO PIXEL LED 라이브러리 AdafruitNeoPixelmaster<br>
 GPS Data 수신 라이브러리 http://www.danmandle.com/blog/getting-gpsd-to-work-with-python/
 
+### # 개발 환경
+OS : Rasibian<br>
+Tool : Arduino
+
 ### # HardWare
 디지털 신호등 (송수신 타워)<br>
 차량 탑재용 라즈베리파이4 (Lora 탑재)
